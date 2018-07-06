@@ -49,7 +49,7 @@
 			<div class="main_div clear" style="padding-top: 150px;">
 				
 				<?php
-					$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+					$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 					$sql = "select * from events order by year desc";
 					$res = mysqli_query($connection,$sql);
 					$cnt = 0;
