@@ -3,7 +3,7 @@
 	session_start();
 	
 	
-	$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni');
+	$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 ?>
 
 <!doctype html>
