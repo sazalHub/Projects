@@ -11,7 +11,7 @@
 			exit();
 		}
 
-		$to = "sazalsarkar24.7@gmail.com";
+		$to = "Admin_Gmail_Address";
 		$subject = "Feedback";
 		$headers = "From: '$sender_email'('$sender_name')";
 
