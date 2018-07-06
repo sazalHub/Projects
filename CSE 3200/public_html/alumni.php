@@ -54,7 +54,7 @@
 				
 				<div class="alumni_container clear">
 					<?php
-					    $connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+					    $connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 						$sql = "select DISTINCT series from personal order by series desc";
 						$res = mysqli_query($connection,$sql);
 						$i = 0;
