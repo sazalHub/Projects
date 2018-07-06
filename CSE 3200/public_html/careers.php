@@ -4,7 +4,7 @@
     if (isset($_SESSION['user']))
         $roll = $_SESSION['user'];
     
-    $connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+    $connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 
 ?>
 
