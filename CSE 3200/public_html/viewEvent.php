@@ -54,7 +54,7 @@
 				
 				<?php
 					$event_id = $_GET['event_id'];
-					$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+					$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 					$sql = "select * from events where event_id='$event_id'";
 					$res = mysqli_query($connection,$sql);
 					$res = mysqli_fetch_array($res);
