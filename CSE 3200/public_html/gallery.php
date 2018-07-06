@@ -57,7 +57,7 @@
 			<div class="image_div main_div clear">
 
 				<?php
-					$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+					$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 					$sql = "select * from gallery";
 					$res = mysqli_query($connection,$sql);
 					$cnt = 0;
