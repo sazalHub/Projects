@@ -2,7 +2,7 @@
 
 	if (isset($_POST['set_password'])){
 
-		$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+		$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 		
 		$code_reciever = $_POST['code_reciever'];
 		$code = $_POST['code'];
