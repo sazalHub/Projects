@@ -6,7 +6,7 @@
 
 	if (isset($_POST['add_job']) && $roll==$added_by){
 
-		$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+		$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 		
 		$title = $_POST['Title'];
 		$company = $_POST['Company'];
