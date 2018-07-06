@@ -50,7 +50,7 @@
 				<?php
 					
 					$photo_id = $_GET['photo_id'];
-					$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+					$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 					$sql = "select * from gallery where image_id="."'".$photo_id."'";
 					$res = mysqli_query($connection,$sql);
 
