@@ -2,7 +2,7 @@
 
 	if (isset($_POST['add_album'])){
 
-		$connection = mysqli_connect('localhost', 'id6300094_alumni','alumni','id6300094_alumni') or die(mysqli_error());
+		$connection = mysqli_connect('localhost', 'userName','Password','databaseName') or die(mysqli_error());
 		
 		$added_by = $_GET['added_by'];
 		$album_name = $_POST['album_Name'];
